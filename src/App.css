@@ -47,8 +47,8 @@ body.dark{
 
 .theme-toggle {
   position: fixed;
-  top: 85px;
-  left: 20px;
+  top: 120px;
+  right: 40px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -65,8 +65,8 @@ body.dark{
 }
 
 .theme-toggle svg {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   color: #fff;
   transition: transform 0.3s;
 }
@@ -77,4 +77,22 @@ body.dark{
 
 .theme-toggle.dark svg {
   transform: rotate(45deg);
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .theme-toggle {
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .theme-toggle svg {
+    width: 30px;
+    height: 30px;
+  }
 }
