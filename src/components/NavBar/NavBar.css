@@ -1,10 +1,15 @@
 
 .navbar {
-  background-color: rgb(23, 3, 71);
+    background-color: rgb(23, 3, 71);
+    width: 100%;
+    height: auto;
+    border-radius: 0 !important;
+    max-width: 100%;
 }
 
-.navbar-nav {
-  margin-left: 250px;
+
+nav img{
+  margin-right: 250px;
 }
 
 .navbar-nav a {
