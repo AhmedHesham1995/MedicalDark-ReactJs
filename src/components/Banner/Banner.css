@@ -1,0 +1,35 @@
+.banner{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 90px;
+    margin-top: 130px;
+}
+
+.banner h1{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.banner li{
+    background-color: var(--btn-color);
+    display: inline;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+
+.banner a{
+    color: #fff;
+    margin-right: 5px;
+}
+
+.banner svg{
+    margin-right: 5px;
+}
+
+.banner a:hover,svg:hover{
+    color: #d6d3f8;
+}

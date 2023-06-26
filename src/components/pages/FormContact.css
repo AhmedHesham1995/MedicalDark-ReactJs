@@ -1,0 +1,7 @@
+.empty{
+    color: rgb(170, 5, 5);
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}

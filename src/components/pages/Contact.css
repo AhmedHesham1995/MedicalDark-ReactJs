@@ -1,0 +1,108 @@
+.cont-body{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgb(226, 220, 220);
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.cont-body input,
+.cont-body textarea{
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.cont-body textarea{
+  height: 200px;
+  border: 0;
+}
+
+.cont-body button{
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  border: 2px solid var(--sec-color) !important;
+  border-radius: 10px !important;
+  color: #fff;
+  background-color: var(--sec-color) !important;
+  transition: .3s all ease-in-out;
+  height: auto;
+}
+
+.cont-body button:hover{
+  background-color: #f99a65 !important;
+  border: 2px solid #f99a65 !important;
+}
+
+
+.side{
+  background: url('../../assets/contact.jpg') center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 15px;
+  
+}
+
+.side .overlay{
+  background-color: #515bc2;
+  opacity: .8;
+  height: 100%;
+  color: white;
+  line-height: 1.7;
+  border-radius: 15px;
+  padding: 70px 50px;
+  margin-top: 0;
+}
+
+.side h4 {
+  line-height: 1.8;
+  font-weight: bold;
+
+}
+
+.side div{
+  margin-top: 30px;
+}
+
+
+.side span{
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.side svg{
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+
+.side .social{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.side a{
+  margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.side {
+  margin-top: 60px;
+}
+.side .overlay{
+  padding-bottom: 20px;
+}
+.cont-body{
+  padding-bottom: 90px;
+}
+}
